@@ -32,13 +32,17 @@ for i in range (1, n+1):
 
 
 # def factorial(n):
+for i in range(10):
+    print(i)
+    def factorial(n):
 
-factorial = 1
-for i in range(n):
-    factorial*= i+1
-    return factorial
+        factorial=1
+        
+        for i in range(n):
+            factorial*=i+1
 
-print (factorial(0))
+        return factorial
+print(factorial(20))
 # Ask the user for a number **n**, then calculate the **factorial** of that number.
 
 # *(Example: factorial of 5 is 120)
@@ -52,7 +56,13 @@ print (factorial(0))
 # ### **Problem 5: Print Even Numbers**
 
 # Ask the user for a number **n**, then print all **even numbers** from 2 up to n.
-
+n = int(input("Enter a number:"))
+list2 = list(range(1, n))
+for i in list2:
+    if i % 2 == 0:
+        print("even", i)
+    else:
+        print("odd", i)
 
 
 # ### **Problem 6: Reverse a String**
