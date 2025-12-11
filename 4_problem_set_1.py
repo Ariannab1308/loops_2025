@@ -22,7 +22,23 @@ for i in range (1, n+1):
     print("The sum of numbers from 1 to", n, "is:", total)
 
 # ### **Problem 3: Factorial Calculator
+# Factorial
+# 5! = 5 * 4 * 2 * 4 * 1
+# n! = n(n-1) * ... * 2 * 1
+ 
 
+# for i in range(10):
+#     print([x])
+
+
+# def factorial(n):
+
+factorial = 1
+for i in range(n):
+    factorial*= i+1
+    return factorial
+
+print (factorial(0))
 # Ask the user for a number **n**, then calculate the **factorial** of that number.
 
 # *(Example: factorial of 5 is 120)
